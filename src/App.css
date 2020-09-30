@@ -1,6 +1,86 @@
 .App {
-  text-align: center;
+  
+  width: 500px;
+  border: 1px solid #EEE;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.Header{
+  width: 500px;
+  border: 1px solid #EEE;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px;
+  display:flex;
+  border-bottom: 1px solid #EEE;
+}
+.Header input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    padding-left: 10px;
+    width: 100%;
+    border: none;
+}
+.Header input:focus{
+  outline:none;
+}
+.Footer{
+  color: #777;
+
+  height: 50px;
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #e6e6e6;
+  
+}
+.Btn{
+  width: 300px;
+  padding: 15px 0;
+  float: left;
+}
+
+
+#Pp{
+  
+  float: left;
+  text-align: left;
+}
+#btnClear{
+  float: right;
+  text-align: right;
+  padding: 15px 0;
+}
+
+
+
+button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+button:hover{
+  border: 1px solid;
+}
+
+
+
 
 .App-logo {
   height: 40vmin;
